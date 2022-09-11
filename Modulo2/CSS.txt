@@ -1,0 +1,162 @@
+      CSS - cascading style sheets (folhas de estilo em cascata)
+
+
+
+CSS externo = use sempre que puder
+CSS interno = use para pequenas configurações
+CSS inline  = procure evitar
+
+<style>
+
+*{  /* Configurações globais das CSS */
+
+   margin:  0px;
+   padding: 0px;
+}
+  
+ body{
+      
+        background-image: radial-gradient( circle, white, blue);
+                     ou
+        background-image: linear-gradient( to right, blue, white);  (podendo tbm colocar por graus ex:45deg e tbm acrescentar uma % na cor )
+     
+        background-attachment: fixed; ( uma opção a mais caso ouver rolamento na página )            ( para se aplicar o degradê)        
+     }
+
+</style>
+
+ font-weight: normal; (podendo também colocar em numerica que começa em 100 e pode ir ate 900)
+ font-style: italic;
+ text-decoration: underline;
+ (nem todas as fontes podem possibilitar isso como por ex.: arial e verdana entre outras)
+
+lighter - fonte mais level( magrinha)
+Normal  - normal
+Bold    - escura (forte)
+Bolder  - escura (mais forte)
+
+weight - Peso
+Width  - largura
+Height - altura  
+
+simplificar a aplicação "das fontes" fazendo um ShortHand font
+seguindo essa ordem:
+font-style - font-weight - font-size - font-family
+
+ex.: font: italic bolder 3em 'Work Sans', sans-serif;
+       
+         
+Resivar: Capítulo 14 aula 01 - Primeiros passos em tipografia
+         Capítulo 14 aula 02 - Anatomia do Tipo
+         Capítulo 14 aula 04 - Tamanho de fonte e suas medidas
+         Capítulo 14 aula 05 - Peso, estilo e shorthand font
+         Capítulo 13 aula 03 - Harmonia de cores
+         Capítulo 16 aula 01 - Moledo de Caixas
+         Capítulo 15 aula 03 - Pseudo-Classe **** (deixar por ultimo)
+         Capitulo 17 aula 03 - Planejando a estrutura do seu site ( mockflow)
+         Capitulo 17 aula 06 - Variaveis em CSS ( :root e * ) para configurações gerais e facilitar a montagem do site
+         Capitulo 17 aula 07 - responsividade para sites
+         Capitulo 17 aula 09 - responsividade na pratica (configurando cabeçalho)
+         Capitulo 17 aula 12 - Tornando um video responsivo (configurando um video do youtube "iframe")
+
+
+
+               Tipos de Caixa
+
+Box - level                          Inline - level
+                                          
+<div>                                     <span>
+                                          
+                                          <a>
+<h1> - <h6>                               <code>
+<p>                                       <small>
+<main>                                    <strong>
+<header>                                  <em>
+<nav>                                     <sup> - <sub>
+<article>                                 <label>
+<aside>                                   <button>
+<footer>                                  <input>
+<form>                                    <select>
+<video>
+
+
+OUTLINE (contorno) - fica entre BORDER e MARGIN (pouco utilizado)
+
+
+Colocando borda personalizada
+
+border: 20px solid black;
+padding: 10px;
+border-image-source: url('imaggem aki');
+border-image-slice: 27; (não precisa colocar uma medida)
+border-image-repeat: repeat;
+
+ou usando o shorthand no border na order que esta acima
+
+border-image: url('imagem aki') 27 repeat;
+
+(caso de duvida assistir a aula do capitulo 16 aula 7 - Bordas decoradas // curso em video)
+
+
+
+
+min-width: 320px (tamanho padrão de uma tela de celular mais antiga, mas não esquecendo de ver o rolamento da pagina)
+max-width: 800px ate 1200px +\- ( sempre ver se fica rolamento na pagina e se os paragrafos não ficam muito grande)
+
+img {
+    width: 100%; (para aproveitar 100% da tela caso tenha imagem na pagina e observar rolamento em telas menores)
+{
+              Caso de duvida assistir o CAPITULO 17 AULA 7 - Responsividade para sites // curso em video
+
+
+
+
+
+@font-face {                                                 /*para colocar fontes baixadas*/
+    font-family: 'android';
+    src: url('../fontes/idroid.otf') format('opentype');
+    
+    font-weight: normal; (é opcional caso queira tirar o negrito (bold) da font ou outro estilo)
+}
+
+
+
+
+
+
+:root {
+    --cor0: #B8FCF8;
+    --cor01: #19A89F;            /* para facilitar na criação do site */
+    --cor02: #25F5E7;
+    --cor03: #0EF5A9;
+    --cor04: #4BF565;
+    --cor05: #00E7FC;
+
+    --fonte-padrao: arial, verdana, helvetica, sans-serif;
+    --fonte-destaque: 'Inconsolata', monospace;   (fonte exemplo -- importada do google)
+    --fonte-android: 'android', cursive;          (fonte exemplo -- baixada do site dafont)
+}
+
+
+
+main p  /*esse comando vai se "aplicar" em todo conteudo que esta dentro da tag paragrafo mesmo que esteja dentro de outras tags*/
+
+   
+main > p  /*esse comando vai se "aplicar" em todo conteudo que esta dentro da tag paragrafo, mas não ira funcionar se estiver dentro de outras tags*/
+
+
+
+DICA
+
+ User Agent - foi configurado pelo navegador o estilo css (quando se abre a ferramenta de desenvolvedor ou como do ingles dev tools)
+
+ctrl + clique - cria um arquivo ( clicar em cima do link criado)
+
+Pseudo-Classe - é uma palavra-chave adicionada a seletores que especifica um estado
+do elemento selecionado.
+
+Pseudo-Elemento - é uma palavra-chave adicionada a um seletor que permite que você 
+estilize uma parte específica do elemento selecionado.
+
+
+

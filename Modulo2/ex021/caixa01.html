@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        h1 {
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+                                        /*exemplo de box-level, pega a linha inteira*/
+            border: 10px solid lightgreen;
+
+            padding: 10px;
+
+            margin: 20px auto 45px auto;   /*caso os valores não for igual colocar dessa forma*/               /*"auto" para deixar a caixa no meio da tela*/
+
+            outline: 10px dashed lightseagreen;
+        }
+        a { /*caixas inline-level não tem como se alterar altura e largura
+            a menos que se coloque inline-block*/
+                                         /*exemplo de inline-box, não quebra linha*/
+            border: 10px solid lightsalmon;
+             
+            padding: 10px;
+              /* aplicação de padding preferencial começar pelo sentido horario ex.: top, right, bottom, left*/
+          
+            margin: 10px;       /*caso os valores for todos iguais colocando uma vez ja funciona*/
+
+            outline: 10px double lightskyblue;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Caixas</h1>
+    <p>Este paragrafo é um <a href="#"> exemplo de modelo caixa inline-level</a> abrir o dev tools para ajudar na compreensão e ajuste de caixas.</p>
+</body>
+</html>

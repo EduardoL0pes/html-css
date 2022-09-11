@@ -1,0 +1,144 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'android';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+body {
+    background-color: rgba(141, 240, 141, 0.747);
+}
+
+#cabecalho{
+    background-image: linear-gradient(100deg, #34BA70, #1B6139, #2DA161);
+    height: 150px;
+    width: auto;
+    margin: -21px;
+    padding: 10px;    
+}
+
+h1 {
+    font-family: 'OpenSans', arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+
+nav > p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+}
+
+.links > a:hover {
+    background-color: #76eca985;
+    border-radius: 5px; 
+}
+
+.links > a { 
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 5px;
+    padding: 15px; 
+    
+}
+
+.corpo {
+    background-color: white;
+    margin: auto;
+    width: 1000px;
+    height: auto;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.titulo {
+    font-family: 'android', sans-serif;
+    color: #1B6139;
+    text-align: left;
+    text-indent: 30px;
+    padding-top: 10px;
+}
+
+h2 {
+    font-family: 'android', sans-serif;
+    background-color: #c1e2d080;
+    width: 650px;
+    color: #1B6139;
+    text-align: left;
+    text-indent: 20px;
+}
+
+article {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-align: justify;
+    text-indent: 15px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.site{
+    color: green;
+    text-decoration: none;
+}
+
+.site > span:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.cor{
+    color: rgba(0, 128, 0, 0.568);
+}
+
+section.video {
+    background-color: #1B6139;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+.subextra {
+    background-color: rgba(0, 128, 0, 0.521);
+    font: normal bold larger arial, sans-serif;
+    /*font-style font-weight font-size font-family*/
+    width: auto;
+    border-radius: 15px 15px 0px 0px;
+    padding: 10px;
+    color: white;
+    
+}
+
+.extra {
+    background-color: #69f5a8b7;
+    margin: 10px;
+    border-radius: 15px; 
+}
+
+.rodape {
+    background-color: #1B6139;  
+    height: 30px;
+    width: auto;
+}
+
+.final {
+    color: white;
+    text-align: center;
+    font-style: normal;
+    padding: 5px;
+}
+
+.negrito {
+    font-weight: bold;
+}
+
+picture {
+    display: block;
+    text-align: center;
+}

@@ -1,0 +1,32 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@font-face{
+    font-family: 'test';
+    src: url('fonts/Rategin.otf') format('opentype'), url('fonts/Rategin.ttf') format('truetype');
+}
+
+body{
+    font: normal bold 16px arial, verdana, sans-serif;
+    background-image: radial-gradient( circle, #065227, #0daf0d);
+    
+}
+h1{
+    font-family: 'test', Helvetica, sans-serif;
+    color: black;
+    font-size: 2em;
+    text-decoration: underline;
+    text-align: center;
+}
+h2{
+    font: normal bold 1.5em arial, verdana, sans-serif;
+    color: lightblue;
+    font-style: italic;
+    text-decoration: underline;
+}
+p{
+   font-family: 'Space Mono', courier, monospace;
+   font-weight: 700;
+   font-style: italic;
+   text-indent: 30px;
+   
+}

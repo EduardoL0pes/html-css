@@ -1,0 +1,96 @@
+           Atualização de TAGS 
+
+<strong></strong> - Negrito (substitui o <b>)
+
+<em></em> - Itálico (Substitui o <i>)
+
+<ins></ins> - Sublinhado (substitui o <u>)
+
+<del></del> - linha no meio do texto (substitui o <strike>)
+
+         
+               Algumas TAGS
+
+<mark></mark> - Marca texto
+
+<small></small> - deixa o texto menor
+
+<sup></sup> - deixa ex.: X²
+
+<sub></sub> - deixa ex.: H20 (obs o 2 fica na parte de baixo)
+
+<code></code> - codigo de computador facilita na leitura de codigo.( nem usar agr, talvez usar apartir do JS)
+
+<q></q> - colocar "" para marcar um parágrafo
+
+<blockquote></blockquote> - para citações mais longas ele fica em 'bloco' e que tenham um parágrafo proprio so para si.
+podemos também acrescentar um link para o texto usando o parâmetro CITE dentro da tag.
+EX.:<blockquote cite="site aqui"></blockquote>
+
+<abbr></abbr> - Para escrever em abreviações e siglas
+Ex.: <p>Eu estou estudando <abbr title="Hyper Text Markup Language">HTML</abbr> Para criar sites.</p>
+
+
+sintaxe:
+ <audio preload="metadata" autoplay auto(pouco usado) loop controls> -- (alguns dos atributos ali vai ser de acordo com o que vc quer)
+       <source src="audio aqui" type="tipo do audio">
+obs: caso o navegador não tiver suporte para os formatos, podera deixar uma mensagem "da forma que esta aqui e na ordem que esta" 
+pois a ordem importa, para o carregamento isso serve para audio, video e imagens.(então se atente a ordem)
+ </audio>
+
+
+
+sintaxe:
+  <video preload="metadata" autoplay auto(pouco usado) loop controls poster="imagem aqui"> 
+        <source src="video aqui" type="tipo do video">  (mais usado quando o video é local)
+  </video> 
+
+
+
+sintaxe:
+   <a href="arquivo para baixar aqui" download="arquivo aqui" type="tipo do arquivo"> baixar aqui</a> 
+ (para outros formatos de arquivos é o mesmo código so alterando o seu tipo)
+
+
+
+sintaxe:
+    <picture>
+            <source media="(max-width: px da imagem)" srcset="tamanho da imagem aki" type="tipo da imagem"> (imagem deve ser menor que a primeira usada, 
+                                                                                                             e sempre observar se vai ficar um folga no rolamento do navegador)
+            <img src="tamanho da imagem que quer" alt="nome da imagem"> (primeiro deve se colocar esse código)
+    </picture>
+
+
+
+    (DE TODAS AS TAGS ESCRITAS AKI ESSA PROXIMA É A MAIS INUTIL)
+
+<bdo></bdo> - para inverter o texto, so existe duas direções.
+rlt - da direita para a esquerda (right-to-left)
+ltr - da esquerda para a direita (left-to-right)
+
+Ex.: <h2>Texto Invertido</h2>
+     <bdo dir="rtl">Este texto todo está invertido no formato RIGHT-TO-LEFT.</bdo>
+
+
+
+                              DICAS
+
+ctrl + shift + P - Emmet: Envelope com a abreviatura ( caso nao apareca colocar ABB)
+
+shift + tab - recuo do espaçamento do texto
+
+tab - espaçamento do texto
+
+Segurando o ALT - clique nas tags que deseja alterar
+
+
+./  - Link na msm pagina
+                                 obs:usado para linkar com tag ancora
+../ - voltar uma pasta 
+
+
+Midia do YT - YT studio + biblioteca de audio + não atribuição.
+
+Compatibilidade audio - MP3  OGG   WAV(não recomendavel pois o arquivo fica muito grande)
+
+compatibilidade video - mp4  mp4v  webm (preferencia a mp4v pois o arquivo é mais leve)
