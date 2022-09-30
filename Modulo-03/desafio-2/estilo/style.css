@@ -39,7 +39,7 @@ header p {
     padding-bottom: 50px;
 }
 
-/*--- podendo tbm colocar somente 'a', mas caso houver mais links no texto que nao seja dentro da tag header ou footer terá problema ---*/
+/*--- podendo tbm colocar somente 'a', mas irá alterar todo tipo de link que estiver na página ---*/
 header a, footer a {    
     color: white;
     font-weight: bolder;
