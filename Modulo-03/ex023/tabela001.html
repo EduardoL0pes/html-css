@@ -14,6 +14,7 @@
         table {
             background-color: lightgray;
             width: 400px;
+            height: 200px;
             border-collapse: collapse;
         }
 
@@ -21,18 +22,16 @@
             background-color: gray;
         }
 
-        td.dado {
-            background-color: lightblue;
-        }
-
-        td.dado2 {
-            background-color: red;
+        td.numero {
+            text-align: right;
+            vertical-align: middle;
         }
 
         td {
             border: 1px solid black;
             padding: 5px;
-            border-collapse: collapse;
+            vertical-align: bottom; /*--Alinhamento Vertical--*/
+            text-align: center;     /*--Alinhamento Horizontal--*/
         }
     </style>
 </head>
@@ -51,18 +50,18 @@
     <table>
         <tr class="linha">
                 <td>A1</td>
-                <td class="dado">B1</td>
-                <td>C1</td>
+                <td>B1</td>
+                <td class="numero" >C1</td>
             </tr>
             <tr>
                 <td>A2</td>
                 <td>B2</td>
-                <td class="dado2">C2</td>
+                <td>C2</td>
             </tr>
             <tr>
                 <td>A3</td>
                 <td>B3</td>
-                <td>C3</td>
+                <td class="numero" >C3</td>
             </tr>
             <tr>
                 <td>A4</td>
