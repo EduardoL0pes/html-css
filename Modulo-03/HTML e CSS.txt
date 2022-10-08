@@ -1,0 +1,143 @@
+        Modulo 03
+
+Capitulo 18 aula 05 - Gerenciando Repositorios GitHub
+Capitulo 18 aula 06 - Hospedando site gratuitamente com GitHub Pages
+Capitulo 18 aula 10 - GitHub em varios PCs
+Capitulo 19 aula 07 - Centralização vertical de caixas
+
+Git - repositorio local (lembrar de fazer backup para o github)
+
+GitHub - Repositorio remoto (nuvem) e tbm colocar o site no "ar" (modo gratis, mas tem limitações)
+
+
+
+{{{  background-size - altera o tamanho da imagem podendo tbm ser alterado por seus valores:
+
+      auto - (padrão) a imagem de fundo será aplicada em seu tamanho original.
+
+      length px - redimensiona a largura da imagem e faz a altura se adaptar automaticamente.
+      length %  - podemos também informar as duas dimensões na sequência ou também usar valores percentuais.
+
+      cover - muda o tamanho da imagem para que ela seja sempre totalmente exibida na tela, sem nenhum corte.
+
+      contain - redimensiona a imagem para que ela cubra o contêiner, mesmo que para isso ocorram alguns 
+      eventuais cortes. 
+
+     (caso de duvidas assistir o capitulo 19 aula 5 - Mudando o tamanho da imagem  de fundo do site)   }}}
+
+
+
+{{{  background-attachment 
+
+      scroll - (padrão) a imagem de fundo vai rolar junto com o conteúdo.
+      
+      fixed - a imagem de fundo vai ficar fixada enquanto o conteúdo vai sendo rolado.  }}}
+
+
+
+{{{ shorthand - background = segue a ordem abaixo para aplicacão:
+
+    color - image - position - repeat - [size] - attachment   
+    
+    obs: aplicação de SIZE ainda não funciona nos navegadores, fazer a aplica fora da shorthand   
+      
+       (caso de duvidas assistir o capitulo 19 aula 06 - background-attachment e shorthand)   }}}
+
+     
+{{{  Position - Relative e Absolute:
+
+	left: ( podemos alterar suas propriedades com %, px ou outros valores de medidas, mas para melhor ajuste usar uma das duas medidas mencionadas) 
+      top:
+
+	Temos tbm a opção    transform: translate(50%, 50%); "valor de exemplo"
+					(para melhorar o ajuste do conteudo conforme desejar)
+	
+	alem desses elementos mencionados acima temos tbm outras opções de ajuste (treinar outras propriedades de position, transform e seus elementos)
+     
+               (Caso de duvidas assistir o capitulo 19 aula 06 - Centralização vertical de caixas)   }}}
+
+
+
+{{{{  Config. Extras:
+
+	Text-transform: uppercase; (deixar toda letra em maiuscula).
+	Font-variant: small-caps; (deixa toda letra em maiuscula, mas as primeiras letras ficam maiores ex.: 'C'order 'M'oderno).
+	Vertical-align: alinhamento vertical.
+	border-collapse: para "juntar" as cedulas da tabela.  }}}}
+
+
+
+{{{ Anatomia para Tabelas Grandes (Semântica)
+
+ Table
+	
+	CAPTION (seria a legenda da tabela)
+	
+	THEAD	
+	 TR,TD,TH
+
+	TBODY
+	 TR,TD,TH
+
+	TFOOT
+	 TR,TD,TH  
+
+
+	SCOPE = visualmente não tera alteração, os navegadores que irão reconhecer (é semântica e recomendada)
+
+            col - para uma coluna
+            colgroup - para mais de uma coluna
+
+            row - para uma linha
+            rowgroup - para mais de uma linha.
+
+
+
+	Tbody > tr:nth-child(odd) "impar" ou // (even) "par"  (podendo tbm colocar outros valores como "2n, 2n-1")
+	(para se aplicar o efeito zebrado para melhor leitura em tabelas maiores).
+
+
+Para fixar o cabeçalho da tabela (obs: não funciona bem em todos navegadores)
+	
+Ex:	table {
+            
+            position: relative;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;   (para não ficar um espaço no topo, mas verificar na aplicação)
+    
+        }
+
+				
+	     <colgroup>
+
+            <col class="cnome">  
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+
+          </colgroup>
+					(para configução especifica em cada coluna)
+         
+           <colgroup>
+
+            <col class="cnome" span="4">
+            
+           </colgroup>     (para configuração especifica em todas as colunas, colocando o 'span' vc escolhe quantas colunas vc deseja aplicar).
+			
+
+                      div#container {
+                        overflow-x: auto;  (para coisas que 'transborda/quebra em telas menores' usar em tabelas para responsividade)
+                                          } (obs: testar o overflow em outras funçoes para ver se funciona)
+
+				(Caso de duvidas assistir o capitulo 21 aula 14 - Tabelas Responsivas)
+				(Caso de duvidas assistir o capitulo 21 aula 13 - Agrupando colunas com Colgroup)
+				(Caso de duvidas assistir o capitulo 21 aula 06 - Cabeçalho fixo em tabelas grandes)
+				(Caso de duvidas assistir o capitulo 21 aula 06 - Efeito zebrado na tabela com HTML e CSS)
+				(Caso de duvidas assistir o capitulo 21 aula 05 - Caption e Escopo de títulos em tabelas)     }}}
+
+	
+
+	
