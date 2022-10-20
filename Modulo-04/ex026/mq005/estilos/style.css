@@ -19,8 +19,16 @@ header > h1 {
     padding: 10px;
 }
 
-nav {
+span#burguer {
+    background-color: rgb(71, 71, 71);
     display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    display: none;
 }
 
 nav > ul {
