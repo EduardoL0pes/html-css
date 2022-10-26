@@ -3,10 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <link rel="stylesheet" href="estilos/style.css">
     <title>UNES - Contato</title>
+    <style>
+
+        main {
+            background-color: white;
+        }
+
+        h1 {
+            padding: 10px;
+            margin: 10px;
+        }
+
+        p {
+            margin: 10px
+        }
+
+        form {
+            margin: 10px;
+            padding: 10px;
+        }
+        
+        input[type=email] {
+            margin-bottom: 10px;
+        }
+
+        input[type=text] {
+            margin-bottom: 10px ;
+        }
+    </style>
 </head>
 <body>
-    
+    <header>
+        <img src="imagens/logo.png" alt="Logo-UNES">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="quem-somos.html" target="_blank">Quem Somos</a></li>
+                <li><a href="contato.html" target="_blank">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <section>
+            <h1>Entre em contato</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum architecto aspernatur ullam quam quibusdam nulla voluptas nemo maxime, nisi et ea possimus numquam.</p>
+            
+            <form action="cadastro.php" method="get" autocomplete="on">
+                <label for="inome">Seu E-mail:</label><br>
+                <input type="email" name="nome" id="inome" placeholder="E-mail" minlength="8" maxlength="30" required><br>
+
+                <label for="iassunto">Assunto:</label><br>
+                <input type="text" name="assunto" id="iassunto" placeholder="Assunto" minlength="10" maxlength="30" required><br>
+
+                <label for="idescricao">Descrição:</label><br>
+                <textarea name="descricao" id="idescricao" cols="30" rows="10"></textarea>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Todos os direitos reservados</p>
+    </footer>
 </body>
 </html>
