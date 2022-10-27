@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+
+#principal {
+    background-color: lightgray;
+    border: 1px solid black;
+}
+
+.conteudo {
+    background-color: tomato;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    margin: 5px;
+    float: right;
+}
+
+#contem:hover {
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
