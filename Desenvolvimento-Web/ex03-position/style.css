@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+body {
+    background-color: #007fc7;
+}
+
+#container {
+    background-color: #fff;
+    border-radius: 5px;
+    width: 700px;
+    padding: 10px;
+    margin: 5px;
+    float: left;
+}
+
+h1 {
+    position: static; /*posicionamento padrão*/
+    text-align: center;
+    margin: 0 0 5px 0;
+}
+
+p {
+    width: 400px;
+    text-indent: 10px;
+    text-align: center;
+}
+
+p.relative {
+    position: relative;
+    left: 290px;
+    padding: 5px 0;
+}
+
+.clear {
+    clear: both;
+}
+
+#container2 {
+    background-color: #fff;
+    width: 700px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    float: right;
+}
+
+.position {
+    background-color: lightgray;
+    padding: 5px;
+    border-radius: 5px;
+}
