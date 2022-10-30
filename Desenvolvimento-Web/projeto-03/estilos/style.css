@@ -98,6 +98,7 @@ a:hover {
 #area-lateral {
     width: 240px;
     float: right;
+    margin-bottom: 5px;
 }
 
 .conteudo-lateral {
@@ -110,6 +111,7 @@ a:hover {
     border-radius: 5px;
     color: white;
     padding: 10px;
+    text-align: center;
 }
 
 .postagem-lateral {
@@ -118,8 +120,9 @@ a:hover {
     border-bottom: 1px solid gray;
 }
 
-.postagem-lateral p {
-    text-indent: 10px;
+.conteudo-lateral a {
+    display: block;
+    padding-bottom: 2px;
 }
 
 #rodape {
