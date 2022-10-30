@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -33,28 +34,38 @@ h1 {
 }
 
  /** Formatação Menu **/
+ 
+#area-cabecalho a:link, a:visited {
+    color: white;
+}
+ 
+#area-cabecalho a:hover {
+    background-color: white;
+    color: #f7b600;
+    border-radius: 5px;
+    text-decoration: none;
+}
 
 a {
     text-decoration: none;
-    padding: 5px 15px;
+    padding: 5px 10px;
     font-weight: bold;
 }
 
 a:link, a:visited {
-    color: white;
+    color: #f7b600;
 }
 
 a:hover {
-    background-color: white;
-    color: #f7b600;
-    border-radius: 5px;
+    text-decoration: underline;
 }
+
 
  /** Formatação do conteúdo **/
 
 #area-principal {
     width: 920px;
-    margin: 0 auto;
+    margin: 10px auto;
 }
 
 #area-postagens {
@@ -68,15 +79,52 @@ a:hover {
   background-color: white;
 }
 
+.postagens h2 {  
+    color: #f7b600;
+}
+
+.postagens .data-postagem {
+    font-size: 0.9em;
+    display: block;
+    margin-bottom: 10px;
+    text-indent: 10px;
+}
+
+.postagens p {
+    padding: 10px 0;
+    text-indent: 10px;
+}
+
 #area-lateral {
-    background-color: #f7b600;
     width: 240px;
     float: right;
 }
 
+.conteudo-lateral {
+    background-color: white;
+    padding: 5px;
+}
+
+.conteudo-lateral > h3 {
+    background-color: gray;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+}
+
+.postagem-lateral {
+    padding: 5px;
+    font-size: 0.9em;
+    border-bottom: 1px solid gray;
+}
+
+.postagem-lateral p {
+    text-indent: 10px;
+}
+
 #rodape {
     clear: both;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(119, 119, 119);
     color: white;
     padding: 15px;
     text-align: center;
