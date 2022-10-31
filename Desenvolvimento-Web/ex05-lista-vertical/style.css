@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    padding: 10px;
+}
+
+ul {
+    padding: 10px;
+    margin-left: 10px;
+    list-style-type: none;
+}
+
+ul > li {
+    font-size: 1.1em;
+}
+
+ul > li > a {
+    display: block;
+    background: url('imagens/menu.png') no-repeat;
+    /* border: 1px solid black; */
+    text-decoration: none;
+    text-indent: 40px;
+    line-height: 40px;
+    color: black;
+    width: 210px;
+    height: 40px;
+    border-bottom: 1px solid black;
+}
+
+ul > li > a:hover {
+    background-position: right bottom;
+    color: white;
+    font-weight: bold;
+}
