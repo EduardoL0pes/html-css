@@ -21,7 +21,7 @@ ul > li {
 
 ul > li > a {
     display: block;
-    background: url('imagens/menu.png') no-repeat;
+    background: #f7b600 url('imagens/menu.png') no-repeat;
     /* border: 1px solid black; */
     text-decoration: none;
     text-indent: 40px;
@@ -35,5 +35,14 @@ ul > li > a {
 ul > li > a:hover {
     background-position: right bottom;
     color: white;
+    background-color: #f99200;
+    font-weight: bold;
+}
+
+#home #navegacao .home a,
+#sobre #navegacao .sobre a {
+    background-position: right bottom;
+    color: white;
+    background-color: #f99200;
     font-weight: bold;
 }
