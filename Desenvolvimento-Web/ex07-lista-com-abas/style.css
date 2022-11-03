@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+ul {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    list-style-type: none;
+    width: 720px;
+}
+
+ul li {
+    background: url('imagens/aba-direita.png') no-repeat top right;
+    float: left;
+}
+
+ul li a {
+    background: url('imagens/aba-esquerda.png')no-repeat top left;
+    text-decoration: none;
+    display: block;
+    padding: 1em 2em;
+    list-style: 3em;
+    color: white;
+    font-weight: bold;
+}
+
+ul a:hover {
+    color: #894a1f;
+}
+
+ul #atual {
+    background: url('imagens/aba-direita-atual.png') no-repeat top right;
+}
+
+ul #atual a {
+    background: url('imagens/aba-esquerda-atual.png') no-repeat top left;
+}
