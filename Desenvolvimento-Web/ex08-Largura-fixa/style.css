@@ -1,1 +1,55 @@
 @charset "UFT-8";
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #f2f2f2;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 720px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+#cabecalho {
+    height: 100px;
+    background-color: gray;
+    text-align: center;
+    line-height: 100px;
+}
+
+#navegacao {
+    width: 180px;
+    float: left;
+    background-color: rgb(167, 167, 167);
+    padding: 20px 0;
+}
+
+#navegacao li {
+    list-style-type: none;
+    padding: 5px;
+}
+
+#navegacao a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#navegacao a:hover {
+    background-color: white;
+    color: gray;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#conteudo {
+    width: 520px;
+    float: right;
+}
+
+#rodape {
+    clear: both;
+    background-color: gray;
+}
