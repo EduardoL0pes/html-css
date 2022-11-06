@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+table {
+    width: 500px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 7px;
+}
+
+th {
+    text-transform: uppercase;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #111;
+    letter-spacing: 0.1em; /*espaçamento de letras*/
+    text-align: left;
+}
+
+.alinhamento-centro {
+    text-align: center;
+}
+
+.alinhamento {
+   text-align: right;
+}
+
+tr:hover{
+    background-color: lightgray;
+}
