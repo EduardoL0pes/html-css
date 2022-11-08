@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    width: 920px;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 1em;
+    margin: 1em 0;
+}
+
+legend {
+    font-weight: bold;
+}
+
+label {
+    cursor: pointer;
+    display: block;
+    font-weight: bold;
+}
+
+input /*[type="text"] */{
+    width: 20em;
+}
+
+div.contato {
+    padding-bottom: 5px;
+}
+
+input.radio, input.checkbox, input.submit {
+    width: auto;
+}
+.radio {
+    margin-right: 1em;
+}
