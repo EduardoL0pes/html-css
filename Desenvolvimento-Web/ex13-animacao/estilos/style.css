@@ -77,7 +77,9 @@
     animation-iteration-count: 2;
     animation-direction: alternate; */
 
+    
     /* Shorthand */
+
     -webkit-animation: animacao-caixa 5s 1.5s 2 alternate;
     -moz-animation: animacao-caixa 5s 1.5s 2 alternate;
     -o-animation: animacao-caixa 5s 1.5s 2 alternate;
