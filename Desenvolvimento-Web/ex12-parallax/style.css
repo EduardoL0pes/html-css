@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+body,html {
+    font: 16px 'lato', sans-serif;
+    height: 100%;
+    margin: 0;
+}
+
+.conteudo {
+    padding: 50px 80px;
+    color: #777;
+    background-color: white;
+    text-align: justify;
+}
+
+h3 {
+    text-transform: uppercase;
+    color: #111;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.caixa1, .caixa2, .caixa3, .caixa4 {
+    position: relative;
+    height: 100%;
+    opacity: 0.7;
+    background: no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.caixa1 {
+    background-image: url('imagens/imagem1.jpg');
+}
+
+.caixa2 {
+    background-image: url('imagens/imagem2.jpg');
+}
+
+.caixa3 {
+    background-image: url('imagens/imagem3.jpg');
+}
+
+.caixa4 {
+    background-image: url('imagens/imagem4.jpg');
+}
+
+/* uma outra forma de centralizar conteúdo
+
+    position: absolute;
+    left: 0;
+    top: 45%;
+    width: 100%;
+    text-align: center; 
+*/
+
+.titulo p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: gray;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    display: inline;
+    padding: 10px;
+    font: bold 2em 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    border-radius: 5px;  
+}
