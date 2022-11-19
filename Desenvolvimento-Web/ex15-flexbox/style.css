@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+#conteudo {
+    height: 600px;
+    background-color: gray;
+    display: flex;
+
+    /* row (padrão) / row-reserve / column / column-reserve*/
+    flex-direction: row;
+
+    /* nowrap (padrão) / wrap / wrap-reserve*/
+    flex-wrap: nowrap;
+
+    /* flex-start (padrão) / flex-end / center / space-between / space-aroud */
+    justify-content: flex-start;
+
+    /* stretch (padrão) / flex-start / flex-end / center / baseline*/
+    align-items: stretch;
+
+}
+
+.item {
+    background-color: lightgray;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+
+/***** Exemplo de Baseline *****/
+
+#conteudo1 {
+    height: 600px;
+    background-color: gray;
+    display: flex;
+
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.item1 {
+    background-color: lightgray;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+/* OBS: Nota que conteúdo 01 esta com padding-top, enquanto os conteúdos 02 á 05 esta seguindo o alinhamento base. (altere o valor de align-items para ver a diferença)
+Em caso de duvida Aula 94 - Flexbox-container (Udemy) */
