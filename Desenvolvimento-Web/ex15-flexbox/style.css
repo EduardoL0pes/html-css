@@ -20,6 +20,8 @@
 }
 
 .item {
+    width: 100px;
+    height: 100px;
     background-color: lightgray;
     border: 1px solid black;
     margin: 10px;
