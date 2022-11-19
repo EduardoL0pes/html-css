@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+#conteudo {
+    height: 600px;
+    background-color: gray;
+    display: flex;
+
+}
+
+/*.ordem1 {
+    order: 1;
+}
+
+.ordem2 {
+    order: 2;
+}
+
+.ordem3 {
+    order: 3;
+}
+
+.ordem4 {
+    order: 4;
+}
+
+outra forma de aplicação de order
+
+.ordem {
+    order: -1;
+} */
+
+
+.item2 { /* Aplicação em classe especifica */
+    flex-grow: 1;
+}
+
+.item3 {
+    flex-grow: 2;
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+    border: 1px solid black;
+    margin: 10px;
+
+    /* Define proporção de espaço ocupado por um item /// obs: aplica em todos os itens dentro da classe.
+    
+    flex-grow: 0; */
+}
