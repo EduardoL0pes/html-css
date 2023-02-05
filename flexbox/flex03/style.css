@@ -1,0 +1,61 @@
+@charset "UTF8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font: normal 1em trebouchet, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    color: white;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-left: 10px;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    font: bold 1.2em arial;
+}
+
+/*Conteudo*/
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flex > div {
+    flex: 1 1 200px;
+    margin: 10px;
+}
