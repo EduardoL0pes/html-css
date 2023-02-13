@@ -1,13 +1,15 @@
 @charset "UTF-8";
 
-@media print {
+@media print { /* IMPRESSÃO */
     * {
         font-family: 'Courier New', Courier, monospace;
     }
     
-    body {
+    /*body {
         background-image: url('../imagens/back-print.jpg');
-    }
+
+         *****Desnecessário pois no 'print' não tem como sair com background***** 
+    } */
 
     main {
         width: 90vw;
@@ -31,7 +33,7 @@
    img#tv { display: none; }
 }
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 992px) { /* TABLET */
    body {
     background-image: url('../imagens/back-tablet.jpg');
 
@@ -48,7 +50,7 @@
    img#tv { display: none; }
 }
 
-@media screen and (min-width: 992px) and (max-width: 1200px) {
+@media screen and (min-width: 992px) and (max-width: 1200px) { /* PC */
     body {
         background-image: url('../imagens/back-pc.jpg');
         
@@ -65,7 +67,7 @@
    img#tv { display: none; }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) { /* GRANDES TELAS */
     body {
         background-image: url('../imagens/back-tv.jpg');
     }
