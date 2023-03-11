@@ -4,6 +4,7 @@
 ---------------------*/
 html,body, #home {
     height: 100%;
+    overflow-x: hidden;
 }
 
 body {
@@ -45,6 +46,13 @@ nav.navbar-transparente {
     text-align: center;
 }
 
+div > h1 {
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
+    color: white;
+}
+
 .btn-custom {
     color: white;
     border-radius: 500px !important;
@@ -73,17 +81,14 @@ nav.navbar-transparente {
     color: black;
 }
 
-div > h1 {
-    font-weight: 900;
-    letter-spacing: -0.05em;
-    margin-bottom: 50px;
-    color: white;
-}
-
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
     .btn-custom {
         margin: 10px 15px;
+    }
+
+    .mobileb {
+        margin-bottom: 5px;
     }
 }
 
@@ -113,4 +118,48 @@ div > h1 {
     div > h1 {
         font-size: 6em;
     }
+}
+
+/* Estrutura conteúdos coluna 1
+--------------------*/
+
+#servicos {
+    background: white;
+    padding: 10px;
+}
+
+#servicos h2 {
+    color: #7c25f8;
+}
+
+#servicos h3 {
+    color: #7c25f8;
+}
+
+h2 {
+    font: normal 700 2.3em helvetica, arial, sans-serif  !important;
+    letter-spacing: -0.04; /*Erro*/
+}
+
+h3 {
+    font: normal 700 1.5em helvetica, arial, sans-serif  !important;
+    letter-spacing: -0.04; /*Erro*/
+}
+
+/* Estrutura conteúdos coluna 2
+--------------------*/
+#recursos h3 {
+    color: #9bf0e1;
+}
+
+#recursos p {
+    color: white;
+    font-weight: 500;
+}
+
+.img-rotate {
+    -ms-transform: rotate(30deg); /* IE 9*/
+    -webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
+    transform: rotate(30deg);
+    padding-left: 80px;
 }
