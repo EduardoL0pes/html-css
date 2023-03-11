@@ -58,6 +58,7 @@ div > h1 {
     border-radius: 500px !important;
     -webkit-border-radius: 500px !important;
     -moz-border-radius: 500px !important;
+    font-weight: 500 !important;
     text-transform: uppercase;
     transition: background 0.4s, color 0.4s;
     padding: 10px 20px;
