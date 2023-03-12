@@ -47,7 +47,7 @@ nav.navbar-transparente {
 }
 
 div > h1 {
-    font-weight: 900;
+    font-weight: 700;
     letter-spacing: -0.05em;
     margin-bottom: 50px;
     color: white;
@@ -90,6 +90,10 @@ div > h1 {
 
     .mobileb {
         margin-bottom: 5px;
+    }
+
+    footer h4 {
+        margin-top: 15px;
     }
 }
 
@@ -163,4 +167,37 @@ h3 {
     -webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
     transform: rotate(30deg);
     padding-left: 80px;
+}
+
+/* Rodapé 
+----------------------*/
+footer {
+    background-color: black;
+    padding: 50px 0 20px 0;
+    position: relative;
+}
+
+footer h4 {
+    font-size: 0.8em;
+    color: #919496;
+    text-transform: uppercase;
+}
+
+footer .navbar-nav a {
+    font-size: 0.8em;
+    color: white;
+}
+
+footer .navbar-nav a:hover {
+    text-decoration: none;
+    color: #9bf0e1;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    float: right;
+    margin: 0 5px;
 }
