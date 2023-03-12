@@ -82,6 +82,12 @@ div > h1 {
     color: black;
 }
 
+/* Slide 
+---------------------*/
+.carousel-control-next, .carousel-control-prev {
+    width: 5% !important;
+}
+
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
     .btn-custom {
